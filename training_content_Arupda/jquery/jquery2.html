@@ -1,1 +1,19 @@
 //Difference between Document.ready and window.load
+
+<!DOCTYPE html>
+<html>
+<head>    
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>    
+</head>  
+<body>
+	<script type="text/javascript">
+		$(window).load(function() {
+			alert(' window.load function');
+		});
+		$(document).ready(function() {
+			alert(' Document.ready function');
+		});
+	</script>
+	<input type="button" id="button1" value="Click Me" />
+</body>  
+</html>
