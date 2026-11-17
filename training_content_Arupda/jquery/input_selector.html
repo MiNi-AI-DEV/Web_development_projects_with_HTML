@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>    
+	<script src="https://code.jquery.com/jquery-1.11.2.js"></script> 
+	
+</head>  
+<body>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('input').each(function() {
+				alert($(this).val());
+			});
+		});
+	
+	</script>   
+	
+	<label> First Name</label>
+	<input type="text" id="txt1" value="Ram" /><br /><br />
+	<label> Last Name</label>
+	<input type="text" id="txt2" value="Roy" /><br /><br />
+	<textarea rows="4" cols="50" id="ta1" value="saltlakekolkata">saltlake  kolkata</textarea><br /><br />
+	<label>Hobby</label>
+	<input type="checkbox" id="chk1" value="Driving" />Driving
+	<input type="checkbox" id="chk2" value="Singing"/>Singing <br /><br />
+	<label> Gender </label>
+	<input type="radio" id="rdo" name="gender" value="Male"/> Male
+	<input type="radio" id="rdo1" name="gender" value="Female"/> Female<br />
+	<input type="button" id="button1" value="Click Me" />
+</body>  
+</html>
+
+
+
